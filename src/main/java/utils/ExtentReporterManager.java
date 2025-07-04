@@ -7,7 +7,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
  * ExtentReporterNG configures and returns an ExtentReports instance.
  * It defines the HTML report path, report name, and other system info.
  */
-public class ExtentReporterNG {
+public class ExtentReporterManager {
 
     /**
      * Creates and returns an ExtentReports object with HTML output configuration.

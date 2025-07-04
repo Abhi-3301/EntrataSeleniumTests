@@ -19,7 +19,7 @@ import com.aventstack.extentreports.Status;
 public class Listeners extends BaseTest implements ITestListener {
 
 	ExtentTest test; // Holds current test instance
-	ExtentReports extent = utils.ExtentReporterNG.getReportObject(); // Shared report object
+	ExtentReports extent = utils.ExtentReporterManager.getReportObject(); // Shared report object
 
 	// Thread-safe object to avoid issues in parallel execution
 	ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();

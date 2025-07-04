@@ -8,8 +8,8 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import abhishek.TestComponents.BaseTest;
 import pageobjects.DemoFormPage;
+import testcomponents.BaseTest;
 
 /**
  * This test case automates interaction with the demo request form on Entrata's
@@ -51,7 +51,7 @@ public class FormInteractionTest extends BaseTest {
 	@DataProvider
 	public Object[][] getData() throws IOException {
 		List<HashMap<String, String>> lst = getJsonDataToMap(
-				System.getProperty("user.dir") + "\\src\\test\\java\\test\\resources\\PurchaseOrder.json");
+				System.getProperty("user.dir") + "\\src\\test\\java\\testresources\\PurchaseOrder.json");
 
 		return new Object[][] { { lst.get(0) } };
 	}

@@ -3,8 +3,8 @@ package testcases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import abhishek.TestComponents.BaseTest;
 import pageobjects.DynamicContent;
+import testcomponents.BaseTest;
 
 public class DynamicContentTest extends BaseTest {
 

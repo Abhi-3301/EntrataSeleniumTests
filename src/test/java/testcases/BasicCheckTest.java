@@ -4,8 +4,7 @@ package testcases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-// BaseTest handles WebDriver setup, teardown, and provides common page objects
-import abhishek.TestComponents.BaseTest;
+import testcomponents.BaseTest;
 
 /**
  * Test class to perform basic UI checks on the Entrata homepage. Includes

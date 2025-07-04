@@ -1,4 +1,4 @@
-package abhishek.TestComponents;
+package testcomponents;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -44,7 +44,7 @@ public class BaseTest {
 
 		// Load browser config from GlobalData.properties
 		FileInputStream fis = new FileInputStream(
-				System.getProperty("user.dir") + "\\src\\test\\java\\test\\resources\\GlobalData.properties");
+				System.getProperty("user.dir") + "\\src\\test\\java\\testresources\\GlobalData.properties");
 		prop.load(fis);
 
 		// Prefer system property browser, fallback to GlobalData.properties

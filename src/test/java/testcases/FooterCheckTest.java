@@ -4,9 +4,8 @@ package testcases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-// Import base test class and footer page object
-import abhishek.TestComponents.BaseTest;
 import pageobjects.Footer;
+import testcomponents.BaseTest;
 
 /**
  * Test class to verify functionality and robustness of the footer's "Privacy

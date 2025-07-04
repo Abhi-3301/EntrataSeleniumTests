@@ -3,7 +3,7 @@
 <suite name="Suite">
 
 	<listeners>
-		<listener class-name="abhishek.TestComponents.Listeners"/>
+		<listener class-name="testcomponents.Listeners"/>
 	</listeners>
 	
 	<test thread-count="5" name="Entrata Test">

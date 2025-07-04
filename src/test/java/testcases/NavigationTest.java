@@ -3,11 +3,11 @@ package testcases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import abhishek.TestComponents.BaseTest;
 import pageobjects.CompanyNewsPage;
 import pageobjects.ProductsPage;
 import pageobjects.ResourcesPage;
 import pageobjects.SolutionsPage;
+import testcomponents.BaseTest;
 
 /**
  * Test class to validate navigation and content of top-level Entrata pages:
